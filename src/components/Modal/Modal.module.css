@@ -1,0 +1,43 @@
+.address {
+  border: 2px solid lightgray;
+  padding:   10px;
+  font-family: "Roboto";
+}
+
+.address p {
+  color: grey;
+  margin: 0;
+}
+
+.titleContainer {
+  background-color: #ebebeb;
+  padding: none;
+}
+
+.title {
+  font-family: "Roboto-Bold";
+  
+}
+
+.addressChange {
+  
+  text-align: center;
+  border-bottom: 1px solid lightgray;
+  line-height: 0.1em;
+  margin:20px 0 20px;
+}
+
+.addressChange span {
+  background: #fff;
+  padding: 0 10px;
+  color: grey;
+  font-family: 'Roboto-Light';
+  font-size: 0.8rem
+  
+}
+
+.modifyLink{
+    color: #68abb7;
+    font-family: 'Roboto';
+    
+}

@@ -1,0 +1,22 @@
+.searchIcon {
+  z-index: 10;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  
+}
+
+.deliveryInfo{
+  display: flex;
+  align-items: center;
+border: 2px solid #232F3E;
+padding: 10px;
+
+}
+
+.deliveryInfo:hover{
+  border: 2px solid white;
+  cursor: pointer;
+}

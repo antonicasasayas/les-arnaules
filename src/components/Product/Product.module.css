@@ -1,0 +1,57 @@
+.cardText {
+  
+  width: max-content;
+}
+.cardPrice {
+  font-family: "Roboto-Bold";
+  font-size: 25px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: black;
+}
+
+.cardSymbol {
+    margin-left: 2px;
+  font-size: 16px;
+}
+
+.cardKG {
+  color: grey;
+  
+}
+
+.cardText span {
+  font-family: "Roboto-Bold";
+  padding: 8px 10px;
+  border-collapse: collapse;
+  margin: 0px;
+  color: black;
+  box-shadow: 
+    1px 0 0 0 lightgray, 
+    0 1px 0 0 lightgray, 
+    1px 1px 0 0 lightgray,  
+    1px 0 0 0 lightgray inset, 
+    0 1px 0 0 lightgray inset;
+    
+  }
+  
+  .plus{
+      border-radius: 0 5px 5px 0;
+  }
+
+.minus{
+    border-radius: 5px 0 0 5px;
+}
+.buttonKG {
+    border-collapse: collapse;
+    margin: 0px;
+  border-radius: none;
+  background-color: rgb(233, 233, 233);
+  color: black;
+  
+}
+
+.cardButton{
+    background-color: #77CB93;
+    color: white;
+}
