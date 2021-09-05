@@ -1,0 +1,11 @@
+@media (max-width: 1250px){
+    .App{
+        display:none
+    }
+    .warning{
+        display:block;
+        color: black;
+    }
+}
+
+

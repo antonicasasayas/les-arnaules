@@ -9,20 +9,17 @@ import ProductList from './components/ProductList';
 function App() {
   const [modalShow, setModalShow] = useState(false);
   return (
-    <div className="App">
-      <Layout setModalShow={setModalShow}>
-        
-        <Header />
-        
-        <ProductList />
-        
+    <div>
+      <h3 className="warning">Mirala en una pantalla más grande.</h3>
+      <div className="App">
+        <Layout setModalShow={setModalShow}>
+          <Header />
 
-      <Modal
-        show={modalShow}
-        onHide={() => setModalShow(false)}
-      />
-    
-      </Layout>
+          <ProductList />
+
+          <Modal show={modalShow} onHide={() => setModalShow(false)} />
+        </Layout>
+      </div>
     </div>
   );
 }
