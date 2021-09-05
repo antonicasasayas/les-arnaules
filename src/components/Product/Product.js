@@ -3,7 +3,7 @@ import Col from "react-bootstrap/Col";
 import styles from './Product.module.css'
 
 import { AiOutlineMinus, AiOutlinePlus, AiOutlineShoppingCart } from "react-icons/ai";
-const Product = () => {
+const Product = ({name, price, photo_url}) => {
   return (
     <Col>
       <Card
@@ -14,14 +14,15 @@ const Product = () => {
         }}
       >
         <Card.Img
+          style={{ 'height':'200px' }}
           className="p-5 pt-0 pb-0"
           variant="top"
-          src="/images/eggplant.jpg"
+          src={photo_url}
         />
         <Card.Body>
-          <Card.Title>Albergínia</Card.Title>
+          <Card.Title>{name}</Card.Title>
           <Card.Text className={styles.cardPrice}>
-            2,50
+            {price}
             <span className={styles.cardSymbol}>
               € <span className={styles.cardKG}>/ KG</span>{" "}
             </span>
@@ -38,7 +39,7 @@ const Product = () => {
             </Card.Text>
             <button
               type="button"
-              style={{ backgroundColor: "#77CB93", color: 'white' }}
+              style={{ backgroundColor: "#77CB93", color: "white" }}
               className="btn  px-3 py-2 rounded-pill mb-3 "
             >
               <AiOutlineShoppingCart size={24} />

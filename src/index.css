@@ -52,3 +52,14 @@ p, button{
   box-shadow: 0 0 0 2px #77CB93 ;
 }
 
+.link{
+  text-decoration: none;
+  color: inherit;
+  border: 2px solid #232F3E;
+  padding: 10px;
+}
+
+.link:hover{
+  color: inherit;
+  border: 2px solid white;
+}

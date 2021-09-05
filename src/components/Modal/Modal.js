@@ -40,7 +40,7 @@ export default function MyVerticallyCenteredModal(props) {
             aria-describedby="basic-addon2"
           />
 
-                  <Button onClick={props.onHide}variant="outline-secondary" id="button-addon2">
+                  <Button onClick={props.onHide} variant="outline-secondary" id="button-addon2">
             Confirmar
           </Button>
         </InputGroup>
